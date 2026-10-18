@@ -8,8 +8,13 @@ La actividad consiste en definir la clase `Nave` y su entorno de juego
 
 ## Datos del proyecto
 
+- **Materia:** Laboratorio de Programacion (LPR)
+- **Institucion:** E.E.S.T. N. 1 "Eduardo Ader" - Vicente Lopez
+- **Curso:** 5to Año
 - **Grupo:** A
+- **Actividad:** N. 8 - Introduccion a POO en C++
 - **Profesor:** Yamil Ganduglia
+- **Licencia:** MIT (ver [LICENSE](LICENSE))
 
 ## Requisitos
 
