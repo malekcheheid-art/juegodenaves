@@ -1,0 +1,42 @@
+# ===== Compilados y ejecutables =====
+*.exe
+*.exe~
+*.obj
+*.o
+*.out
+*.a
+*.lib
+*.dll
+*.pdb
+*.ilk
+
+# ===== Salida de compilacion =====
+bin/
+build/
+Release/
+Debug/
+
+# ===== IDEs y editores =====
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Sistema operativo =====
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ===== Archivos temporales =====
+*.tmp
+*.log
+*~
+
+# ===== Sistema de archivos =====
+# Este archivo se usa para evitar que Windows y el repositorio codifiquen los
+# nombres de archivo con acentos (ej. "manuales" vs "manuales"), lo que puede
+# romper la estructura obligatoria vista en otras maquinas y sistemas.
+core.quotepath
