@@ -1,0 +1,10 @@
+# Marcador de carpeta.
+
+Esta carpeta aloja las capturas de pantalla que demuestran la ejecucion correcta
+del programa, con el nombre y apellido del piloto visibles en el HUD.
+
+Archivo esperado:
+
+- `combate_consola.png`
+
+Este archivo se elimina cuando se agreguen las capturas definitivas.
