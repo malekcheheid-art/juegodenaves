@@ -110,8 +110,8 @@ juego y se muestra `GAME OVER`.
 
 - [x] Estructura de carpetas del repositorio
 - [x] Codigo base funcional (motor del juego)
-- [ ] Funcionalidad adicional del desafio obligatorio
+- [x] Funcionalidad adicional del desafio obligatorio (Score / marcador de puntos)
 - [ ] Informe APA v7
 - [ ] Manual del programador
 - [ ] Manual del usuario
-- [ ] Capturas de ejecucion
+- [x] Capturas de ejecucion
