@@ -1,0 +1,5 @@
+# core.autocrlf=true (Windows) convierte LF a CRLF al hacer checkout y eso
+# rompe los binarios: el PDF pasaria de 40041 a 40407 bytes y perderia su
+# tabla xref. Con "binary" Git los conserva byte a byte.
+*.pdf binary
+*.png binary

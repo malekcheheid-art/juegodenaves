@@ -6,7 +6,7 @@
     Actividad 8: Introduccion a POO - Motor de Juego de Naves
                 (Clases, Objetos, Encapsulamiento y Constructores)
     Docente: Mansilla Munoz York Elias
-    Estudiante: [COMPLETAR APELLIDO Y NOMBRE]
+    Estudiante: Cheheid Malek
 
     Descripcion:
         Simulador de combate espacial en consola. El jugador maneja una nave
