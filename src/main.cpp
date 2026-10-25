@@ -243,6 +243,7 @@ int main() {
     ocultarCursor();   // oculta el cursor
 
     bool gameOver = false;
+    int score = 0;  // Funcionalidad 1: Marcador de puntos
 
     // Se crea el objeto jugador: se ejecuta el constructor con (35, 20, 3)
     Nave jugador(35, 20, 3);
@@ -268,12 +269,15 @@ int main() {
     */
     while (!gameOver) {
 
-        // HUD: nombre del piloto y vidas restantes
+        // HUD: nombre del piloto, vidas y puntaje
         gotoxy(2, 1);
         cout << "PILOTO: " << nombrePiloto << "  ";
 
         gotoxy(2, 2);
         cout << "VIDAS: " << jugador.getVidas() << "  ";
+
+        gotoxy(15, 2);
+        cout << "SCORE: " << score << "  ";
 
         // --- Entrada de teclado ---
         // _kbhit() indica si hay una tecla presionada pendiente de leer,
@@ -345,6 +349,8 @@ int main() {
                     // Se borra y reemplaza el asteroide
                     asteroides[i]->borrar();
                     asteroides[i] = new Asteroide((rand() % 70) + 2, 4);
+
+                    score += 10;  // Funcionalidad 1: sumar puntos por impacto
 
                     break;  // una bala no puede destruir dos asteroides
                 }
