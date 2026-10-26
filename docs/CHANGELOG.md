@@ -34,8 +34,9 @@ El formato sigue Keep a Changelog y el proyecto usa [SemVer](https://semver.org/
   `docs/InformeEEST1_LPR2026_ACT08_CheheidMalek_v1.0.0.pdf`.
 - Archivo `.gitattributes` que marca los PDF y las imagenes como binarios, de
   modo que `core.autocrlf` no los corrompa al clonar el repositorio.
-
-### Pendiente
-
-- Manual del Programador (`docs/manuales/manual_programador_v1.0.0.pdf`).
-- Manual del Usuario (`docs/manuales/manual_usuario_v1.0.0.pdf`).
+- Manuales de la documentacion en `docs/manuales/`:
+  - `manual_programador_v1.0.0.pdf`: manual tecnico con la arquitectura de
+    clases, el flujo de ejecucion, las decisiones de diseno, la funcionalidad
+    implementada y la guia de extension.
+  - `manual_usuario_v1.0.0.pdf`: guia de uso con los controles, la lectura de
+    la pantalla, las reglas del juego y las preguntas frecuentes.

@@ -113,6 +113,6 @@ juego y se muestra `GAME OVER`.
 - [x] Codigo base funcional (motor del juego)
 - [x] Funcionalidad adicional del desafio obligatorio (Score / marcador de puntos)
 - [x] Informe APA v7
-- [ ] Manual del programador
-- [ ] Manual del usuario
+- [x] Manual del programador
+- [x] Manual del usuario
 - [x] Capturas de ejecucion
