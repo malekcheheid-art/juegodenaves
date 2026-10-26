@@ -61,11 +61,12 @@ de mayusculas del teclado altere los comandos.
 
 ```
 juegodenaves/
+├── .gitattributes
 ├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── docs/
-│   ├── InformeEEST1_LPR2026_ACT08_G03_v1.0.0.pdf
+│   ├── InformeEEST1_LPR2026_ACT08_CheheidMalek_v1.0.0.pdf
 │   ├── CHANGELOG.md
 │   └── manuales/
 │       ├── manual_programador_v1.0.0.pdf
@@ -111,7 +112,7 @@ juego y se muestra `GAME OVER`.
 - [x] Estructura de carpetas del repositorio
 - [x] Codigo base funcional (motor del juego)
 - [x] Funcionalidad adicional del desafio obligatorio (Score / marcador de puntos)
-- [ ] Informe APA v7
+- [x] Informe APA v7
 - [ ] Manual del programador
 - [ ] Manual del usuario
 - [x] Capturas de ejecucion
